@@ -47,6 +47,152 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /** Your CSS Below **/
+html{
+  background-color: var(--clr-stone100);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-size: 12px;
+}
+
+body{
+  font-family: var(--fs-base);
+  color: var(--clr-stone900);
+  width: 100%;
+  max-width: 550px;
+  margin: 70px auto;
+  padding: 30px;
+  border-radius: 14px;
+  background-color: white;
+}
+
+.image img{
+  margin-bottom: 20px;
+  border-radius: 14px;
+}
+
+#title{
+  margin: 10px auto;
+  padding: auto;
+  font-size: 30px;
+  font-weight: 570;
+  font-family: var(--fs-accent);
+}
+
+.time{
+  margin: 20px auto;
+  padding: 20px 10px;
+  background-color: var(--clr-rose50);
+  color: var(--clr-rose800);
+  border-radius: 15px;
+}
+
+.time h3{
+  font-size: 15px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+
+.time ul li{
+  margin-bottom: 7px;
+}
+
+.time ul li p{
+  color: var(--clr-stone900);
+  margin-left: 10px;
+}
+
+span{
+  font-weight: 800;
+}
+
+.ingredients ul li{
+  margin-left: -4%;
+  margin-bottom: 7px;
+  color: var(--clr-brown800);
+}
+
+.ingredients ul li p{
+  margin-left: 15px;
+  margin-bottom: 7px;
+  color: var(--clr-stone900);
+}
+
+.instructions ol li{
+  margin-left: -4%;
+  margin-bottom: 7px;
+  color: var(--clr-brown800);
+  font-weight: bold;
+}
+
+.instructions ol li p{
+  margin-left: 15px;
+  color: var(--clr-stone900);
+  font-weight: lighter;
+}
+
+h2{
+  margin-bottom: 13px;
+  font-family: var(--fs-accent);
+  font-weight:300;
+  color: var(--clr-brown800);
+  font-size: 23px;
+}
+
+hr{
+  opacity: 30%;
+}
+
+table{
+  width: 100%;
+  margin: 10px auto;
+  border-collapse: collapse;
+}
+
+tr{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.123);
+}
+
+td{
+  color: var(--clr-stone900);
+  padding: 10px 32px;
+}
+
+td span{
+  color: var(--clr-brown800);
+  padding-right: 20px;
+}
+
+.tableInfo{
+  margin-bottom: 17px;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  width: 55%;
+  margin-left: 26px;
+  margin-bottom: 7px;
+  margin-top: 7px;
+}
+
+.cal{
+  font-weight: 800;
+  color: var(--clr-brown800);;
+}
+
+.carbsG{
+  margin-right: 25px;
+  font-weight: 800;
+  color: var(--clr-brown800);;
+}
+
+.grand{
+  margin-right: 20px;
+  font-weight: 800;
+  color: var(--clr-brown800);;
+}
 
 /** Attribution CSS **/
 .attribution { font-size: 11px; text-align: center; }
