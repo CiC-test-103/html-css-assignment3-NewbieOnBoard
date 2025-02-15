@@ -144,26 +144,6 @@ hr{
   opacity: 30%;
 }
 
-table{
-  width: 100%;
-  margin: 10px auto;
-  border-collapse: collapse;
-}
-
-tr{
-  border-bottom: 1px solid rgba(0, 0, 0, 0.123);
-}
-
-td{
-  color: var(--clr-stone900);
-  padding: 10px 32px;
-}
-
-td span{
-  color: var(--clr-brown800);
-  padding-right: 20px;
-}
-
 .tableInfo{
   margin-bottom: 17px;
 }
